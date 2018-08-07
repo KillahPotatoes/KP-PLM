@@ -1,0 +1,21 @@
+{
+    "sqf.enableCBA": true,
+    "sqf.enableACE3": true,
+    "sqflint.ignoredVariables": [
+        "_input0",
+        "findIf",
+        "KPPLM_fnc_apply",
+        "KPPLM_fnc_create",
+        "KPPLM_fnc_getInOut",
+        "KPPLM_fnc_join",
+        "KPPLM_fnc_manageActions",
+        "KPPLM_fnc_openDialog",
+        "KPPLM_fnc_rename",
+        "KPPLM_fnc_save",
+        "KPPLM_fnc_showRankData",
+        "KPPLM_groups",
+        "KPR_playerNation",
+        "KPR_players",
+        "KPR_uniforms"
+    ]
+}

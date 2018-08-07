@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="KPPLM">
+    <!-- English and German localization by Wyqer: https://github.com/Wyqer | Updated: 2018-08-07 -->
+    <Key ID="STR_KPPLM_ACTIONOPEN">
+        <Original>-- KP Player Menu --</Original>
+        <English>-- KP Player Menu --</English>
+        <German>-- KP Spielermenü --</German>
+    </Key>
+    <Key ID="STR_KPPLM_TITLE">
+        <Original>KP Player Menu</Original>
+        <English>KP Player Menu</English>
+        <German>KP Spielermenü</German>
+    </Key>
+    <Key ID="STR_KPPLM_LABELPLAYER">
+        <Original>Player Information</Original>
+        <English>Player Information</English>
+        <German>Spielerinformationen</German>
+    </Key>
+    <Key ID="STR_KPPLM_RANK">
+        <Original>Rank:</Original>
+        <English>Rank:</English>
+        <German>Dienstgrad:</German>
+    </Key>
+    <Key ID="STR_KPPLM_SCORE">
+        <Original>Score:</Original>
+        <English>Score:</English>
+        <German>Punkte:</German>
+    </Key>
+    <Key ID="STR_KPPLM_PLAYTIME">
+        <Original>Playtime:</Original>
+        <English>Playtime:</English>
+        <German>Spielzeit:</German>
+    </Key>
+    <Key ID="STR_KPPLM_NORANKS">
+        <Original>KP Ranks mod not loaded</Original>
+        <English>KP Ranks mod not loaded</English>
+        <German>KP Ranks Mod nicht geladen</German>
+    </Key>
+    <Key ID="STR_KPPLM_LABELGROUPS">
+        <Original>Group Management</Original>
+        <English>KP Ranks mod not loaded</English>
+        <German>Gruppenverwaltung</German>
+    </Key>
+    <Key ID="STR_KPPLM_CREATE">
+        <Original>Create</Original>
+        <English>Create</English>
+        <German>Erstellen</German>
+    </Key>
+    <Key ID="STR_KPPLM_JOIN">
+        <Original>Join</Original>
+        <English>Join</English>
+        <German>Beitreten</German>
+    </Key>
+    <Key ID="STR_KPPLM_RENAME">
+        <Original>Rename</Original>
+        <English>Rename</English>
+        <German>Umbenennen</German>
+    </Key>
+    <Key ID="STR_KPPLM_LABELVIEW">
+        <Original>View Distance Settings</Original>
+        <English>View Distance Settings</English>
+        <German>Sichtweiteneinstellungen</German>
+    </Key>
+    <Key ID="STR_KPPLM_VIEWFOOT">
+        <Original>m on foot</Original>
+        <English>m on foot</English>
+        <German>m zu Fuß</German>
+    </Key>
+    <Key ID="STR_KPPLM_VIEWVEHICLE">
+        <Original>m in ground vehicles</Original>
+        <English>m in ground vehicles</English>
+        <German>m in Bodenfahrzeugen</German>
+    </Key>
+    <Key ID="STR_KPPLM_VIEWAIR">
+        <Original>m in air vehicles</Original>
+        <English>m in air vehicles</English>
+        <German>m in Luftfahrzeugen</German>
+    </Key>
+    <Key ID="STR_KPPLM_LABELMISC">
+        <Original>Misc Settings</Original>
+        <English>Misc Settings</English>
+        <German>Sonstige Einstellungen</German>
+    </Key>
+    <Key ID="STR_KPPLM_TEXTTERRAIN">
+        <Original>Terrain detail:</Original>
+        <English>Terrain detail:</English>
+        <German>Terraindetail:</German>
+    </Key>
+    <Key ID="STR_KPPLM_TERRAINLOW">
+        <Original>Low</Original>
+        <English>Low</English>
+        <German>Niedrig</German>
+    </Key>
+    <Key ID="STR_KPPLM_TERRAINSTANDARD">
+        <Original>Standard</Original>
+        <English>Standard</English>
+        <German>Standard</German>
+    </Key>
+    <Key ID="STR_KPPLM_TERRAINHIGH">
+        <Original>High</Original>
+        <English>High</English>
+        <German>Hoch</German>
+    </Key>
+    <Key ID="STR_KPPLM_TERRAINVHIGH">
+        <Original>Very High</Original>
+        <English>Very High</English>
+        <German>Sehr Hoch</German>
+    </Key>
+    <Key ID="STR_KPPLM_TERRAINULTRA">
+        <Original>Ultra</Original>
+        <English>Ultra</English>
+        <German>Ultra</German>
+    </Key>
+    <Key ID="STR_KPPLM_TEXTTPV">
+        <Original>Auto 3rd person view:</Original>
+        <English>Auto 3rd person view:</English>
+        <German>Auto 3rd-Person-Sicht:</German>
+    </Key>
+    <Key ID="STR_KPPLM_TPDISABLED">
+        <Original>Disabled</Original>
+        <English>Disabled</English>
+        <German>Deaktiviert</German>
+    </Key>
+    <Key ID="STR_KPPLM_TPVAIR">
+        <Original>Air vehicles</Original>
+        <English>Air vehicles</English>
+        <German>Luftfahrzeuge</German>
+    </Key>
+    <Key ID="STR_KPPLM_TPVLAND">
+        <Original>Ground vehicles</Original>
+        <English>Ground vehicles</English>
+        <German>Bodenfahrzeuge</German>
+    </Key>
+    <Key ID="STR_KPPLM_TPVALL">
+        <Original>All vehicles</Original>
+        <English>All vehicles</English>
+        <German>Alle Fahrzeuge</German>
+    </Key>
+    <Key ID="STR_KPPLM_TEXTRADIO">
+        <Original>Disable radio chatter:</Original>
+        <English>Disable radio chatter:</English>
+        <German>KI Funk deaktivieren:</German>
+    </Key>
+    <Key ID="STR_KPPLM_RADIONO">
+        <Original>No</Original>
+        <English>No</English>
+        <German>Nein</German>
+    </Key>
+    <Key ID="STR_KPPLM_RADIOVOICE">
+        <Original>Voice</Original>
+        <English>Voice</English>
+        <German>Stimme</German>
+    </Key>
+    <Key ID="STR_KPPLM_RADIOALL">
+        <Original>Voice + Chat</Original>
+        <English>Voice + Chat</English>
+        <German>Stimme + Chat</German>
+    </Key>
+    <Key ID="STR_KPPLM_TEXTSOUND">
+        <Original>In vehicle volume:</Original>
+        <English>In vehicle volume:</English>
+        <German>Lautstärke im Fahrzeug:</German>
+    </Key>
+    <Key ID="STR_KPPLM_APPLY">
+        <Original>Apply</Original>
+        <English>Apply</English>
+        <German>Anwenden</German>
+    </Key>
+    <Key ID="STR_KPPLM_TTSOUND">
+        <Original>The sound adjustment is overwritten by ACE, if you should use it.</Original>
+        <English>The sound adjustment is overwritten by ACE, if you should use it.</English>
+        <German>Die Lautstärkeanpassung wird durch ACE überschrieben, wenn du es nutzen solltest.</German>
+    </Key>
+    <Key ID="STR_KPPLM_NOTLEADER">
+        <Original>You're not the leader of this group.</Original>
+        <English>You're not the leader of this group.</English>
+        <German>Du bist nicht der Anführer dieser Gruppe.</German>
+    </Key>
+</Project>
