@@ -45,6 +45,8 @@ After downloading the latest release file from the [Releases Tab](https://github
 
 e.g.: `myFancyMission.Altis\KPGUI\` and `myFancyMission.Altis\KPPLM\`
 
+The `stringtable.xml` goes also into the root of the mission folder.
+
 If you don't already have a `description.ext` file you can just move the one from the release package to the root of your mission folder.
 
 Should you already have an own `description.ext` file, add the following:
