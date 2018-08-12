@@ -123,8 +123,6 @@ class KPPLM_dialog {
 
     class controls {
 
-        class KP_DialogCross: KP_DialogCrossC {};
-
         class KP_PlayerRank: KP_Text {
             idc = 75802;
             style = 2;
@@ -242,5 +240,7 @@ class KPPLM_dialog {
             text = "$STR_KPPLM_APPLY";
             onButtonClick = "[] call KPPLM_fnc_save";
         };
+
+        class KP_DialogCross: KP_DialogCrossC {};
     };
 };
