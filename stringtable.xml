@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="KPPLM">
-    <!-- English and German localization by Wyqer: https://github.com/Wyqer | Updated: 2018-08-07 -->
+    <!-- English and German localization by Wyqer: https://github.com/Wyqer | Updated: 2018-08-22 -->
     <Key ID="STR_KPPLM_ACTIONOPEN">
         <Original>-- KP Player Menu --</Original>
         <English>-- KP Player Menu --</English>
@@ -175,5 +175,10 @@
         <Original>You're not the leader of this group.</Original>
         <English>You're not the leader of this group.</English>
         <German>Du bist nicht der Anführer dieser Gruppe.</German>
+    </Key>
+    <Key ID="STR_KPPLM_NOLVLSYSTEM">
+        <Original>Leveling system disabled</Original>
+        <English>Leveling system disabled</English>
+        <German>Levelsystem deaktiviert</German>
     </Key>
 </Project>
