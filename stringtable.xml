@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="KPPLM">
-    <!-- English and German localization by Wyqer: https://github.com/Wyqer | Updated: 2018-08-22 -->
+    <!-- English and German localization by Wyqer: https://github.com/Wyqer | Updated: 2018-08-23 -->
     <Key ID="STR_KPPLM_ACTIONOPEN">
         <Original>-- KP Player Menu --</Original>
         <English>-- KP Player Menu --</English>
@@ -38,7 +38,7 @@
     </Key>
     <Key ID="STR_KPPLM_LABELGROUPS">
         <Original>Group Management</Original>
-        <English>KP Ranks mod not loaded</English>
+        <English>Group Management</English>
         <German>Gruppenverwaltung</German>
     </Key>
     <Key ID="STR_KPPLM_CREATE">
