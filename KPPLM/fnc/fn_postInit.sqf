@@ -40,7 +40,7 @@ if (hasInterface) then {
 
     // Action to open the dialog
     private _actionArray = [
-        "<t color='#FF8000'>" + localize "STR_KPPLM_ACTION" + "</t>",
+        "<t color='#FF8000'>" + localize "STR_KPPLM_ACTIONOPEN" + "</t>",
         {[] call KPPLM_fnc_openDialog;},
         nil,
         -803,

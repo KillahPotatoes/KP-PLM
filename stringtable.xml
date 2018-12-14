@@ -218,4 +218,8 @@
         <German>Levelsystem deaktiviert</German>
         <Portuguese>Sistema de níveis desativado</Portuguese>
     </Key>
+    <Key ID="STR_KPPLM_VERSION">
+        <English>KP Player Menu v1.0.2\nby Wyqer</English>
+        <German>KP Spielermenü v1.0.2\nvon Wyqer</German>
+    </Key>
 </Project>

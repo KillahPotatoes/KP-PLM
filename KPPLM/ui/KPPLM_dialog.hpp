@@ -123,6 +123,10 @@ class KPPLM_dialog {
 
     class controls {
 
+        class KPPLM_Version: KPGUI_PRE_DialogVersionIconC {
+            tooltip = "$STR_KPPLM_VERSION";
+        };
+
         class KP_PlayerRank: KPGUI_PRE_Text {
             idc = 758032;
             style = 2;
