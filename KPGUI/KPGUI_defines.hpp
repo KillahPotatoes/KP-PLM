@@ -1,19 +1,18 @@
 /*
-    Killah Potatoes GUI System
+    Killah Potatoes GUI defines and functions
 
-    File: KP_uiDefines.hpp
+    File: KPGUI_defines.hpp
     Author: Wyqer - https://github.com/KillahPotatoes
     Date: 2018-07-10
-    Last Update: 2018-08-07
+    Last Update: 2018-12-05
     License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
 
     Description:
-    UI defines and classes used in mods and missions from the Killah Potatoes Gaming Community.
+        UI defines and functions used in mods and missions from the Killah Potatoes Gaming Community.
 */
 
-// BI class includes
-// Details via: "Default" call BIS_fnc_exportGUIBaseClasses;
-#include "A3_defines.hpp"
+// Prefix for this use case to avoid issues with duplicated definitions
+#define KPGUI_PRE                       KPPLM
 
 /*
     --- General Defines ---
@@ -35,6 +34,14 @@
 // Colors
 #define KP_COLOR_PLAYERDEFINE           {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"}
 #define KP_COLOR_BACKGROUND             {0, 0, 0, 0.5}
+
+// Leftovers from the old framework. Will be removed/replaced in further development
+#define COLOR_BROWN                     {0.30, 0.25, 0.2, 0.75}
+#define COLOR_GREEN                     {0.2, 0.23, 0.18, 0.75}
+#define COLOR_WHITE                     {1, 1, 1, 1}
+#define COLOR_NOALPHA                   {0, 0, 0, 0}
+#define COLOR_BLACK                     {0, 0, 0, 1}
+#define COLOR_OPFOR_NOALPHA             {1, 0, 0, 1}
 
 /*
     --- Functions ---
@@ -93,129 +100,6 @@
 #define KP_GETH(HVAL,GRID)             safeZoneH * ((HVAL - (GRID + 1) * KP_SPACING_Y) / GRID)
 
 /*
-    --- General Classes ---
-*/
-
-// Title bar for dialogs
-class KP_Title: RscText {
-    colorBackground[] = KP_COLOR_PLAYERDEFINE;
-    text = "DIALOG TITLE";
-    h = safeZoneH * KP_HEIGTH_TITLE;
-    shadow = 1;
-    sizeEx = KP_TEXT_XL;
-};
-
-// Cross symbol for dialog close
-class KP_CloseCross: RscActiveText {
-    style = 48;
-    color[] = {1, 1, 1, 0.75};
-    colorBackground[] = {0, 0, 0, 0};
-    colorText[] = {1, 1, 1, 0.75};
-    colorActive[] = {1, 1, 1, 1};
-    text = "\A3\Ui_f\data\GUI\Rsc\RscDisplayArcadeMap\icon_exit_cross_ca.paa";
-    w = safeZoneW * 0.014;
-    h = safeZoneH * 0.025;
-    tooltip = "$STR_DISP_CLOSE";
-    action = "closeDialog 0";
-};
-
-// General background for the dialog area
-class KP_Background: RscText {
-    colorBackground[] = KP_COLOR_BACKGROUND;
-};
-
-// Normal Text
-class KP_Text: RscText {
-    sizeEx = KP_TEXT_M;
-};
-
-// Inline Title
-class KP_InlineTitle: RscText {
-    style = 2;
-    sizeEx = KP_TEXT_L;
-};
-
-// Active Text
-class KP_ActiveText: RscActiveText {
-    style = 2;
-    sizeEx = KP_TEXT_M;
-};
-
-// Picture
-class KP_Picture: RscText {
-    style = 48;
-};
-
-class KP_ActivePicture: RscActivePicture {};
-
-// Picture which keeps aspect ratio
-class KP_PictureRatio: RscText {
-    style = 48 + 2048;
-};
-
-// Button
-class KP_Button: RscButton {
-    colorBackground[] = KP_COLOR_BACKGROUND;
-    colorFocused[] = KP_COLOR_BACKGROUND;
-    h = safeZoneH * KP_HEIGTH_BUTTON;
-    sizeEx = KP_TEXT_M;
-};
-
-// Inline Button
-class KP_InlineButton: RscButton {
-    colorBackground[] = {0.25, 0.25, 0.25, 1};
-    colorBackgroundDisabled[] = {0, 1, 0, 1};
-    colorBackgroundActive[] = {0.3, 0.3, 0.3, 1};
-    colorFocused[] = {0.25, 0.25, 0.25, 1};
-    sizeEx = KP_TEXT_M;
-    offsetPressedX = safeZoneW * 0.0005;
-    offsetPressedY = safeZoneH * 0.001;
-}
-
-// Controls group
-class KP_ControlsGroup: RscControlsGroup {};
-
-// Combo
-class KP_Combo: RscCombo {
-    colorBackground[] = KP_COLOR_BACKGROUND;
-    sizeEx = KP_TEXT_M;
-};
-
-// Checkbox
-class KP_CheckBox: RscCheckBox {
-    style = 2;
-    w = safeZoneW * 0.014;
-    h = safeZoneH * 0.025;
-};
-
-// ListBox
-class KP_ListBox: RscListBox {
-    sizeEx = KP_TEXT_M;
-};
-
-class KP_ListNBox: RscListNBox {
-    sizeEx = KP_TEXT_M;
-};
-
-// XListBox
-class KP_XListBox: RscXListBox {
-    colorBackground[] = KP_COLOR_BACKGROUND;
-    sizeEx = KP_TEXT_M;
-};
-
-// Slider
-class KP_Slider: RscXSliderH {
-    color[] = {1, 1, 1, 0.6};
-    colorActive[] = {1, 1, 1, 0.6};
-};
-
-// Editbox
-class KP_EditBox: RscEdit {
-    colorBackground[] = {0, 0, 0, 0.3};
-    sizeEx = KP_TEXT_M;
-};
-
-/*
     --- Standard sized dialog components ---
     (X from 0.25 - 0.75, Y from 0.2 - 0.8)
 */
@@ -225,34 +109,6 @@ class KP_EditBox: RscEdit {
 
 #define KP_WIDTH_VAL                    (1 - 2 * KP_X_VAL)
 #define KP_HEIGHT_VAL                   (1 - 2 * KP_Y_VAL - KP_HEIGTH_TITLE - KP_HEIGTH_BUTTON - 2 * KP_SPACING_Y)
-
-// Title bar
-class KP_DialogTitle: KP_Title {
-    x = KP_GETX(KP_X_VAL,KP_WIDTH_VAL,0,1);
-    y = safeZoneY + safeZoneH * KP_Y_VAL;
-    w = KP_GETWPLAIN(KP_WIDTH_VAL,1);
-};
-
-// Cross symbol
-class KP_DialogCross: KP_CloseCross {
-    x = KP_GETX_CROSS(KP_X_VAL);
-    y = KP_GETY_CROSS(KP_Y_VAL);
-};
-
-// Background
-class KP_DialogBackground: KP_Background {
-    x = KP_GETX(KP_X_VAL,KP_WIDTH_VAL,0,1);
-    y = KP_GETY_AREA(KP_Y_VAL);
-    w = KP_GETWPLAIN(KP_WIDTH_VAL,1);
-    h = safeZoneH * KP_HEIGHT_VAL;
-};
-
-// Button pos 1 in 4 button row
-class KP_DialogButton: KP_Button {
-    x = KP_GETX(KP_X_VAL,KP_WIDTH_VAL,0,4);
-    y = KP_GETY_BELOW(KP_Y_VAL,KP_HEIGHT_VAL);
-    w = KP_GETWPLAIN(KP_WIDTH_VAL,4);
-};
 
 /*
     --- Large sized dialog components ---
@@ -265,34 +121,6 @@ class KP_DialogButton: KP_Button {
 #define KP_WIDTH_VAL_L                  (1 - 2 * KP_X_VAL_L)
 #define KP_HEIGHT_VAL_L                 (1 - 2 * KP_Y_VAL_L - KP_HEIGTH_TITLE - KP_HEIGTH_BUTTON - 2 * KP_SPACING_Y)
 
-// Title bar
-class KP_DialogTitleL: KP_Title {
-    x = KP_GETX(KP_X_VAL_L,KP_WIDTH_VAL_L,0,1);
-    y = safeZoneY + safeZoneH * KP_Y_VAL_L;
-    w = KP_GETWPLAIN(KP_WIDTH_VAL_L,1);
-};
-
-// Cross symbol
-class KP_DialogCrossL: KP_CloseCross {
-    x = KP_GETX_CROSS(KP_X_VAL_L);
-    y = KP_GETY_CROSS(KP_Y_VAL_L);
-};
-
-// Background
-class KP_DialogBackgroundL: KP_Background {
-    x = KP_GETX(KP_X_VAL_L,KP_WIDTH_VAL_L,0,1);
-    y = KP_GETY_AREA(KP_Y_VAL_L);
-    w = KP_GETWPLAIN(KP_WIDTH_VAL_L,1);
-    h = safeZoneH * KP_HEIGHT_VAL_L;
-};
-
-// Button pos 1 in 4 button row
-class KP_DialogButtonL: KP_Button {
-    x = KP_GETX(KP_X_VAL_L,KP_WIDTH_VAL_L,0,4);
-    y = KP_GETY_BELOW(KP_Y_VAL_L,KP_HEIGHT_VAL_L);
-    w = KP_GETWPLAIN(KP_WIDTH_VAL_L,4);
-};
-
 /*
     --- Corner dialog components ---
     (X from 0.035 - 0.235, Y from 0.05 - 0.8)
@@ -304,30 +132,15 @@ class KP_DialogButtonL: KP_Button {
 #define KP_WIDTH_VAL_C                  0.2
 #define KP_HEIGHT_VAL_C                 (0.75 - KP_HEIGTH_TITLE - KP_HEIGTH_BUTTON - 2 * KP_SPACING_Y)
 
-// Title bar
-class KP_DialogTitleC: KP_Title {
-    x = KP_GETX(KP_X_VAL_C,KP_WIDTH_VAL_C,0,1);
-    y = safeZoneY + safeZoneH * KP_Y_VAL_C;
-    w = KP_GETWPLAIN(KP_WIDTH_VAL_C,1);
-};
+/*
+    --- Left panel dialog components ---
+*/
 
-// Cross symbol
-class KP_DialogCrossC: KP_CloseCross {
-    x = safeZoneX + safeZoneW * (KP_X_VAL_C + KP_WIDTH_VAL_C - 0.02)
-    y = KP_GETY_CROSS(KP_Y_VAL_C);
-};
+#define KP_X_VAL_LP                     0.0025
+#define KP_Y_VAL_LP                     0.0025
 
-// Background
-class KP_DialogBackgroundC: KP_Background {
-    x = KP_GETX(KP_X_VAL_C,KP_WIDTH_VAL_C,0,1);
-    y = KP_GETY_AREA(KP_Y_VAL_C);
-    w = KP_GETWPLAIN(KP_WIDTH_VAL_C,1);
-    h = safeZoneH * KP_HEIGHT_VAL_C;
-};
+#define KP_WIDTH_VAL_LP                 0.2
+#define KP_HEIGHT_VAL_LP                (1 - 2 * KP_Y_VAL_LP - KP_HEIGTH_TITLE - KP_HEIGTH_BUTTON - 2 * KP_SPACING_Y)
 
-// Button
-class KP_DialogButtonC: KP_Button {
-    x = KP_GETX(KP_X_VAL_C,KP_WIDTH_VAL_C,0,1);
-    y = KP_GETY_BELOW(KP_Y_VAL_C,KP_HEIGHT_VAL_C);
-    w = KP_GETWPLAIN(KP_WIDTH_VAL_C,1);
-};
+// Classes include
+#include "KPGUI_classes.hpp"

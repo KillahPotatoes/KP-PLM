@@ -32,9 +32,11 @@ They can adjust their view distances depending if they're on foot, in a ground o
 * Persistent settings, which will apply for the player on each server and each mission who uses this menu
 
 ## Languages
-Currently the mod is localized for:
+Currently the plugin is localized for:
+* Chinese Traditional
 * English
 * German
+* Portuguese
 
 ## Mods
 Required:
@@ -51,7 +53,7 @@ If you don't already have a `description.ext` file you can just move the one fro
 
 Should you already have an own `description.ext` file, add the following:
 
-    #include "KPGUI\KP_uiDefines.hpp"
+    #include "KPGUI\KPGUI_defines.hpp"
     #include "KPPLM\ui\KPPLM_dialog.hpp"
 
 If you don't have a `CfgFunctions` definition in your `description.ext` you can append this:

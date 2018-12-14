@@ -3,29 +3,29 @@
 
     File: fn_save.sqf
     Author: Wyqer - https://github.com/KillahPotatoes
-    Date: 2018-08-06
-    Last Update: 2018-08-07
+    Date: 2018-08-05
+    Last Update: 2018-11-10
     License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
 
     Description:
-    Saves the selected settings from the player menu dialog and calls the apply function.
+        Saves the selected settings from the player menu dialog and calls the apply function.
 
     Parameter(s):
-    NONE
+        NONE
 
     Returns:
-    BOOL
+        Function reached the end [BOOL]
 */
 
 // Dialog controls
-private _dialog = findDisplay 758080;
-private _ctrlViewFoot = _dialog displayCtrl 758010;
-private _ctrlViewVeh = _dialog displayCtrl 758011;
-private _ctrlViewAir = _dialog displayCtrl 758012;
-private _ctrlTerrain = _dialog displayCtrl 758013;
-private _ctrlTpv = _dialog displayCtrl 758014;
-private _ctrlRadio = _dialog displayCtrl 758015;
-private _ctrlSliderSound = _dialog displayCtrl 758017;
+private _dialog = findDisplay 75803;
+private _ctrlViewFoot = _dialog displayCtrl 7580310;
+private _ctrlViewVeh = _dialog displayCtrl 7580311;
+private _ctrlViewAir = _dialog displayCtrl 7580312;
+private _ctrlTerrain = _dialog displayCtrl 7580313;
+private _ctrlTpv = _dialog displayCtrl 7580314;
+private _ctrlRadio = _dialog displayCtrl 7580315;
+private _ctrlSliderSound = _dialog displayCtrl 7580317;
 
 // Fetch all selected values
 KPPLM_viewFoot = round (parseNumber (ctrlText _ctrlViewFoot));

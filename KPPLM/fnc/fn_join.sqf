@@ -3,23 +3,23 @@
 
     File: fn_join.sqf
     Author: Wyqer - https://github.com/KillahPotatoes
-    Date: 2018-08-06
-    Last Update: 2018-08-07
+    Date: 2018-08-05
+    Last Update: 2018-11-10
     License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
 
     Description:
-    Joins the group which is currently selected in the group list.
+        Joins the group which is currently selected in the group list.
 
     Parameter(s):
-    NONE
+        NONE
 
     Returns:
-    BOOL
+        Function reached the end [BOOL]
 */
 
 // Dialog controls
-private _dialog = findDisplay 758080;
-private _ctrlGroupList = _dialog displayCtrl 75808;
+private _dialog = findDisplay 75803;
+private _ctrlGroupList = _dialog displayCtrl 758038;
 
 private _grp = KPPLM_groups select (lbCurSel _ctrlGroupList);
 [player] join _grp;

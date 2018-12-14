@@ -3,12 +3,12 @@
 
     File: KPPLM_functions.hpp
     Author: Wyqer - https://github.com/KillahPotatoes
-    Date: 2018-08-06
-    Last Update: 2018-08-07
+    Date: 2018-06-02
+    Last Update: 2018-11-10
     License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
 
     Description:
-    Function defines for the KP Player Menu.
+        Defines for all functions for the KP Player Menu.
 */
 
 class KPPLM {
@@ -24,19 +24,21 @@ class KPPLM {
         // Apply view distance and sound volume
         class getInOut {};
 
-        // Initialize the KP player menu
-        class init {
-            postInit = 1;
-        };
-
         // Joins selected group
         class join {};
 
-        // Manages action adding and removing
-        class manageActions {};
-
         // Open the dialog
         class openDialog {};
+
+        // Module post initialization
+        class postInit {
+            postInit = 1;
+        };
+
+        // Module pre initialization
+        class preInit {
+            preInit = 1;
+        };
 
         // Applies new name to group
         class rename {};
