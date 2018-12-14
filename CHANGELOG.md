@@ -1,8 +1,14 @@
 # Changelog
 
+## 1.0.2
+* Added: Portuguese Localization. Thanks to [AngusDLX](https://github.com/AngusDLX)
+* Updated: KPGUI defines.
+* Tweaked: Initialization of the script.
+* Tweaked: Use CBA function for persistent "open dialog" action on the player.
+
 ## 1.0.1
-* Added: KP Ranks score value will be masked, if leveling system is disabled
-* Tweaked: Usage of KPR 2.0.2 functions
+* Added: KP Ranks score value will be masked, if leveling system is disabled.
+* Tweaked: Usage of KPR 2.0.2 functions.
 * Fixed: Dialogs close directly if opened with "standard action" key.
 
 ## 1.0.0
