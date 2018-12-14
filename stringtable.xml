@@ -3,219 +3,183 @@
     <!-- English and German localization by Wyqer: https://github.com/Wyqer | Updated: 2018-08-23 -->
     <!-- Portuguese localization by AngusDLX: https://github.com/AngusDLX | Updated: 2018-08-25 -->
     <Key ID="STR_KPPLM_ACTIONOPEN">
-        <Original>-- KP Player Menu --</Original>
         <English>-- KP Player Menu --</English>
         <German>-- KP Spielermenü --</German>
-		<Portuguese>-- KP Menu do Jogador --</Portuguese>
+        <Portuguese>-- KP Menu do Jogador --</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TITLE">
-        <Original>KP Player Menu</Original>
         <English>KP Player Menu</English>
         <German>KP Spielermenü</German>
-		<Portuguese>KP Menu do Jogador</Portuguese>
+        <Portuguese>KP Menu do Jogador</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_LABELPLAYER">
-        <Original>Player Information</Original>
         <English>Player Information</English>
         <German>Spielerinformationen</German>
-		<Portuguese>Informação do Jogador</Portuguese>
+        <Portuguese>Informação do Jogador</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_RANK">
-        <Original>Rank:</Original>
         <English>Rank:</English>
         <German>Dienstgrad:</German>
-		<Portuguese>Rank:</Portuguese>
+        <Portuguese>Rank:</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_SCORE">
-        <Original>Score:</Original>
         <English>Score:</English>
         <German>Punkte:</German>
-		<Portuguese>Pontuação:</Portuguese>
+        <Portuguese>Pontuação:</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_PLAYTIME">
-        <Original>Playtime:</Original>
         <English>Playtime:</English>
         <German>Spielzeit:</German>
-		<Portuguese>Tempo de jogo:</Portuguese>
+        <Portuguese>Tempo de jogo:</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_NORANKS">
-        <Original>KP Ranks mod not loaded</Original>
         <English>KP Ranks mod not loaded</English>
         <German>KP Ranks Mod nicht geladen</German>
-		<Portuguese>O mod KP Ranks não está carregado</Portuguese>
+        <Portuguese>O mod KP Ranks não está carregado</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_LABELGROUPS">
-        <Original>Group Management</Original>
         <English>Group Management</English>
         <German>Gruppenverwaltung</German>
-		<Portuguese>Gerenciar Grupo</Portuguese>
+        <Portuguese>Gerenciar Grupo</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_CREATE">
-        <Original>Create</Original>
         <English>Create</English>
         <German>Erstellen</German>
-		<Portuguese>Criar</Portuguese>
+        <Portuguese>Criar</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_JOIN">
-        <Original>Join</Original>
         <English>Join</English>
         <German>Beitreten</German>
-		<Portuguese>Juntar-se</Portuguese>
+        <Portuguese>Juntar-se</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_RENAME">
-        <Original>Rename</Original>
         <English>Rename</English>
         <German>Umbenennen</German>
-		<Portuguese>Renomear</Portuguese>
+        <Portuguese>Renomear</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_LABELVIEW">
-        <Original>View Distance Settings</Original>
         <English>View Distance Settings</English>
         <German>Sichtweiteneinstellungen</German>
-		<Portuguese>Distância de Visão</Portuguese>
+        <Portuguese>Distância de Visão</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_VIEWFOOT">
-        <Original>m on foot</Original>
         <English>m on foot</English>
         <German>m zu Fuß</German>
-		<Portuguese>m A pé</Portuguese>
+        <Portuguese>m A pé</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_VIEWVEHICLE">
-        <Original>m in ground vehicles</Original>
         <English>m in ground vehicles</English>
         <German>m in Bodenfahrzeugen</German>
-		<Portuguese>m em veículos terrestres</Portuguese>
+        <Portuguese>m em veículos terrestres</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_VIEWAIR">
-        <Original>m in air vehicles</Original>
         <English>m in air vehicles</English>
         <German>m in Luftfahrzeugen</German>
-		<Portuguese>m em veículos aéreos</Portuguese>
+        <Portuguese>m em veículos aéreos</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_LABELMISC">
-        <Original>Misc Settings</Original>
         <English>Misc Settings</English>
         <German>Sonstige Einstellungen</German>
-		<Portuguese>Outras Configurações</Portuguese>
+        <Portuguese>Outras Configurações</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TEXTTERRAIN">
-        <Original>Terrain detail:</Original>
         <English>Terrain detail:</English>
         <German>Terraindetail:</German>
-		<Portuguese>Detalhe do terreno:</Portuguese>
+        <Portuguese>Detalhe do terreno:</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TERRAINLOW">
-        <Original>Low</Original>
         <English>Low</English>
         <German>Niedrig</German>
-		<Portuguese>Baixo</Portuguese>
+        <Portuguese>Baixo</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TERRAINSTANDARD">
-        <Original>Standard</Original>
         <English>Standard</English>
         <German>Standard</German>
-		<Portuguese>Padrão</Portuguese>
+        <Portuguese>Padrão</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TERRAINHIGH">
-        <Original>High</Original>
         <English>High</English>
         <German>Hoch</German>
-		<Portuguese>Alto</Portuguese>
+        <Portuguese>Alto</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TERRAINVHIGH">
-        <Original>Very High</Original>
         <English>Very High</English>
         <German>Sehr Hoch</German>
-		<Portuguese>Muito Alto</Portuguese>
+        <Portuguese>Muito Alto</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TERRAINULTRA">
-        <Original>Ultra</Original>
         <English>Ultra</English>
         <German>Ultra</German>
-		<Portuguese>Ultra</Portuguese>
+        <Portuguese>Ultra</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TEXTTPV">
-        <Original>Auto 3rd person view:</Original>
         <English>Auto 3rd person view:</English>
         <German>Auto 3rd-Person-Sicht:</German>
-		<Portuguese>Câmera auto em 3º pessoa:</Portuguese>
+        <Portuguese>Câmera auto em 3º pessoa:</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TPDISABLED">
-        <Original>Disabled</Original>
         <English>Disabled</English>
         <German>Deaktiviert</German>
-		<Portuguese>Desativado</Portuguese>
+        <Portuguese>Desativado</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TPVAIR">
-        <Original>Air vehicles</Original>
         <English>Air vehicles</English>
         <German>Luftfahrzeuge</German>
-		<Portuguese>Veículos aéreos</Portuguese>
+        <Portuguese>Veículos aéreos</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TPVLAND">
-        <Original>Ground vehicles</Original>
         <English>Ground vehicles</English>
         <German>Bodenfahrzeuge</German>
-		<Portuguese>Veículos terrestres</Portuguese>
+        <Portuguese>Veículos terrestres</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TPVALL">
-        <Original>All vehicles</Original>
         <English>All vehicles</English>
         <German>Alle Fahrzeuge</German>
-		<Portuguese>Todos os veículos</Portuguese>
+        <Portuguese>Todos os veículos</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TEXTRADIO">
-        <Original>Disable radio chatter:</Original>
         <English>Disable radio chatter:</English>
         <German>KI Funk deaktivieren:</German>
-		<Portuguese>Desativar comm's de rádio:</Portuguese>
+        <Portuguese>Desativar comm's de rádio:</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_RADIONO">
-        <Original>No</Original>
         <English>No</English>
         <German>Nein</German>
-		<Portuguese>Não</Portuguese>
+        <Portuguese>Não</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_RADIOVOICE">
-        <Original>Voice</Original>
         <English>Voice</English>
         <German>Stimme</German>
-		<Portuguese>Voz</Portuguese>
+        <Portuguese>Voz</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_RADIOALL">
-        <Original>Voice + Chat</Original>
         <English>Voice + Chat</English>
         <German>Stimme + Chat</German>
-		<Portuguese>Voz + Chat</Portuguese>
+        <Portuguese>Voz + Chat</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TEXTSOUND">
-        <Original>In vehicle volume:</Original>
         <English>In vehicle volume:</English>
         <German>Lautstärke im Fahrzeug:</German>
-		<Portuguese>Volume dentro do veículo:</Portuguese>
+        <Portuguese>Volume dentro do veículo:</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_APPLY">
-        <Original>Apply</Original>
         <English>Apply</English>
         <German>Anwenden</German>
-		<Portuguese>Aplicar</Portuguese>
+        <Portuguese>Aplicar</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_TTSOUND">
-        <Original>The sound adjustment is overwritten by ACE, if you should use it.</Original>
         <English>The sound adjustment is overwritten by ACE, if you should use it.</English>
         <German>Die Lautstärkeanpassung wird durch ACE überschrieben, wenn du es nutzen solltest.</German>
-		<Portuguese>O ajuste de som é sobrescrito pelo ACE se você usar ele.</Portuguese>
+        <Portuguese>O ajuste de som é sobrescrito pelo ACE se você usar ele.</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_NOTLEADER">
-        <Original>You're not the leader of this group.</Original>
         <English>You're not the leader of this group.</English>
         <German>Du bist nicht der Anführer dieser Gruppe.</German>
-		<Portuguese>Você não é o lider desse grupo.</Portuguese>
+        <Portuguese>Você não é o lider desse grupo.</Portuguese>
     </Key>
     <Key ID="STR_KPPLM_NOLVLSYSTEM">
-        <Original>Leveling system disabled</Original>
         <English>Leveling system disabled</English>
         <German>Levelsystem deaktiviert</German>
-		<Portuguese>Sistema de níveis desativado</Portuguese>
+        <Portuguese>Sistema de níveis desativado</Portuguese>
     </Key>
 </Project>
