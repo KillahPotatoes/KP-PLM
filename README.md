@@ -32,7 +32,8 @@ They can adjust their view distances depending if they're on foot, in a ground o
 * Persistent settings, which will apply for the player on each server and each mission who uses this menu
 
 ## Languages
-Currently the mod is localized for:
+Currently the plugin is localized for:
+* Chinese Traditional
 * English
 * German
 * Portuguese
